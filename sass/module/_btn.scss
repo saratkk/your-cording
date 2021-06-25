@@ -1,0 +1,11 @@
+.gradient-btn  {
+    width: 155px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: $btn-color;
+    border-radius: 10px;
+    @include centering;
+    @include box-shadow;
+}

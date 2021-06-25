@@ -1,0 +1,12 @@
+.section-ttl {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    span {
+        font-size: 1.6rem;
+        font-weight: bold;
+        display: block;
+        color: $subttl-color;
+        margin-top: 10px;
+    }
+}
