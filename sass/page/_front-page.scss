@@ -6,7 +6,7 @@
     background-position: top -130px right -85px;
     @include xl {
         background-size: 60vw 60vw;
-        background-position: top -15vw right -10vw;
+        background-position: top -30vw right -10vw;
     }
     @include m {
         background-size: 70vw 70vw;
@@ -293,6 +293,7 @@
 }
 
 .blog {
+    background: $bg-color;
     padding: 55px 0 91px 0; 
     @include s {
         padding: 50px 0;
@@ -328,6 +329,7 @@
         position: relative;
         width: 100%;
         max-width: 389px;
+        background: #fff;
         transition: transform .3s;
         &:hover {
             transform: scale(1.05, 1.05);
@@ -411,7 +413,7 @@
             }        
         }
         &info {
-            font-size: 1.4rem;
+            font-size: 14px;
             padding: 0 17px;
             margin-bottom: 30px;
             line-height: 1.7;

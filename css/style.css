@@ -170,7 +170,7 @@ img {
 @media screen and (min-width: 1500px) {
   .main {
     background-size: 60vw 60vw;
-    background-position: top -15vw right -10vw;
+    background-position: top -30vw right -10vw;
   }
 }
 
@@ -665,6 +665,7 @@ img {
 }
 
 .blog {
+  background: #EEFBFB;
   padding: 55px 0 91px 0;
 }
 
@@ -729,6 +730,7 @@ img {
   position: relative;
   width: 100%;
   max-width: 389px;
+  background: #fff;
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
@@ -838,7 +840,7 @@ img {
 }
 
 .works-cardinfo {
-  font-size: 1.4rem;
+  font-size: 14px;
   padding: 0 17px;
   margin-bottom: 30px;
   line-height: 1.7;
